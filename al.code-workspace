@@ -1,14 +1,26 @@
 {
-  "folders": [
-    {
-      "path": "Planio Connector"
-    },
-    {
-      "path": "Planio Connector Tests"
-    },
-    {
-      "path": ".AL-Go"
+    "folders": [
+        {
+            "path": "Planio Connector"
+        },
+        {
+            "path": "Planio Connector Tests"
+        },
+        {
+            "path": ".AL-Go"
+        }
+    ],
+    "settings": {
+        "al.enableCodeActions": true,
+        "al.enableCodeAnalysis": true,
+        "al.codeAnalyzers": [
+            "${CodeCop}",
+            "${PerTenantExtensionCop}",
+            "${UICop}"
+        ],
+        "CRS.ObjectNameSuffix": "",
+        "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectType>.al",
+        "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.ReorganizeByNamespace": true
     }
-  ],
-  "settings": {}
 }
