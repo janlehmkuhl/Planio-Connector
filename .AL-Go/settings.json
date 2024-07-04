@@ -1,6 +1,7 @@
 {
-  "country": "us",
+  "country": "w1",
   "appFolders": [],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "artifact": "/24.0/w1/Latest"
 }
