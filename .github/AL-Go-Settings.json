@@ -1,4 +1,16 @@
 {
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main"
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
+  "currentSchedule": "0 2 * * *",
+  "conditionalSettings": [
+    {
+      "workflows": [
+        "CICD"
+      ],
+      "settings": {
+        "useCompilerFolder": true,
+        "doNotPublishApps": true
+      }
+    }
+  ]
 }
