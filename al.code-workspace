@@ -4,6 +4,9 @@
       "path": "Planio Connector"
     },
     {
+      "path": "Planio Connector Tests"
+    },
+    {
       "path": ".AL-Go"
     }
   ],
